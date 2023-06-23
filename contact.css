@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6rem;
+   
+
+   
+}
+.container form{
+    font-size: 1.5rem;
+    background-image: linear-gradient(white,rgb(246, 202, 208) 45%,rgb(204, 252, 240));
+    width: 40rem;
+    border:dashed .2rem ;
+    border-radius: 3rem;
+    padding: 4% 10%  4% 10% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+
+}
+:is(input, textarea, button){
+    margin-bottom: 2rem;
+    background: transparent;
+    border-radius: .5rem;
+    border: .2rem solid;
+    height:3rem;
+    /* color:rgb(239, 99, 145); */
+    color:lightcoral;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+input[type=text],textarea,input[type=number]{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+    font-size: larger;
+    padding-left: 2%;
+   
+}
+textarea{
+    height:70%;
+}
+.btn{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: 300;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    width: 30%;
+    background-color: white;
+    color: lightcoral;
+   
+    
+    
+}
+.btn:hover{
+    back
+}
+@media  screen and (max-width: 768px) {
+    html{
+        font-size: 45%;
+    }
+}
